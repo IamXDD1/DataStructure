@@ -1,0 +1,94 @@
+Description
+
+小明是某銀行的資訊處工程師，今天要做一個銀行前台系統，負責解決排隊問題，以下為功能需求：
+
+銀行共有數個櫃檯，若顧客為某櫃檯的第一人，即可為他處理業務，若前面有人顧客則需排隊等待。
+顧客進入銀行時，需加入至排隊人數最少的櫃檯。如果櫃台人數相等，則加入 ID 最小的櫃台。
+櫃檯編號從 00 開始。(0, 1, 2, ....)
+系統需要記錄每一位至銀行辦理業務的顧客其「名字」、「完成業務的時間點」以及「處理業務的櫃檯編號」。
+======================================English Version======================================
+
+Ming is an IT of a bank, one day, his boss told him to build a system for the service desks to deal with a queuing problem, the following are the system needs:
+
+The number of desks is limited, if the customer is the first person at the desk, then we can start serving immediately, otherwise, the customer should wait in line.
+Every customer will choose the desk with the least number of people. If the number of people at every desk is equal, then join the desk with the smallest ID.
+Desk ID starts from 00. (0, 1, 2, ....)
+The system needs to record the "name", "business completion time" and "desk ID for handling" of each customer.
+
+Input
+第一行為銀行櫃檯個數，最多十個櫃檯。
+接著按照顧客抵達時間，依序輸入顧客資料，包含「名字」、「抵達銀行的時間點」以及「處理業務所需時長」。
+======================================English Version======================================
+
+The first line is the number of counters, up to 10 desks.
+The following lines are the customer's information in sequence according to their arrival time, including the "name", "arrival time", and "time required to handle the business".
+
+Output
+每行請依序輸出每位客戶的「名字」、「完成業務的時間點」以及「處理業務的櫃檯編號」。
+行與行之間，請按照客戶完成業務的時間先後排序，若時間相等則依櫃檯編號由小到大排序。
+======================================English Version======================================
+
+Please output the customer's "name", "business completion time", and "desk ID handle for him", and sort by "business completion time".
+
+Sample Input 1 
+
+3
+John 3 9
+Mr._Brown 4 12
+Alice 6 20
+Jack 9 18
+God 18 22
+GiGi 23 10
+Sample Output 1
+
+John 12 0
+Mr._Brown 16 1
+Alice 26 2
+Jack 30 0
+GiGi 40 0
+God 40 1
+Sample Input 2 
+
+4
+Alan 9 21
+Ann 11 6
+Jack 18 18
+Susan 27 29
+Patricia 33 21
+Mary 40 27
+Jennifer 53 10
+Bradley 56 27
+Michelle 60 8
+Samantha 71 22
+Olivia 85 14
+Shirley 96 15
+Scott 108 25
+Alan 121 24
+Dorothy 129 18
+Jean 141 22
+Ralph 142 11
+Jack 143 7
+Margaret 147 24
+Lisa 151 13
+Sample Output 2
+
+Ann 17 1
+Alan 30 0
+Jack 36 1
+Patricia 54 0
+Susan 56 2
+Jennifer 63 3
+Mary 67 1
+Michelle 68 2
+Bradley 83 0
+Samantha 93 1
+Olivia 99 0
+Shirley 111 1
+Scott 133 0
+Alan 145 1
+Dorothy 147 2
+Ralph 153 3
+Jean 163 0
+Lisa 164 2
+Jack 170 0
+Margaret 171 1

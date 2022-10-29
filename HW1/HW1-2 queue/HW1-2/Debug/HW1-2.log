@@ -1,0 +1,4 @@
+﻿  main.cpp
+C:\Users\XDD\Desktop\資工\課程\資料結構\DataStructure\HW1\HW1-2\HW1-2\main.cpp(99,20): warning C4018: '<': signed/unsigned 不相符
+C:\Users\XDD\Desktop\資工\課程\資料結構\DataStructure\HW1\HW1-2\HW1-2\main.cpp(37): warning C4715: 'Queue::first': 不是所有控制路徑都傳回值
+  HW1-2.vcxproj -> C:\Users\XDD\Desktop\資工\課程\資料結構\DataStructure\HW1\HW1-2\Debug\HW1-2.exe

@@ -1,0 +1,5 @@
+﻿  main.cpp
+C:\Users\XDD\Desktop\資工\課程\資料結構\DataStructure\HW2\HW2-1\HW2-1\main.cpp(94,20): warning C4018: '<': signed/unsigned 不相符
+C:\Users\XDD\Desktop\資工\課程\資料結構\DataStructure\HW2\HW2-1\HW2-1\main.cpp(102,20): warning C4018: '<': signed/unsigned 不相符
+C:\Users\XDD\Desktop\資工\課程\資料結構\DataStructure\HW2\HW2-1\HW2-1\main.cpp(110,20): warning C4018: '<': signed/unsigned 不相符
+  HW2-1.vcxproj -> C:\Users\XDD\Desktop\資工\課程\資料結構\DataStructure\HW2\HW2-1\Debug\HW2-1.exe
